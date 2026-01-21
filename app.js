@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Biki Sports – Thank you for visiting my page 🚀');
+  res.end('Hello Friends, Welcome to My Page 🚀');
 });
 
 server.listen(3000, () => {
