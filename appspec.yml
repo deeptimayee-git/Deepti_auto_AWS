@@ -3,7 +3,7 @@ os: linux
 
 files:
   - source: /
-    destination: /opt/biki-sports
+    destination: /home/ec2-user/Deepti_auto_AWS
 
 hooks:
   BeforeInstall:
