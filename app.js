@@ -9,3 +9,4 @@ server.listen(3000, () => {
   console.log('Server running on port 3000');
 });
 
+// redeploy after attaching EC2 IAM role
